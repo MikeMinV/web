@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Онлайн тайм трекер</title>
+<style>
+    /* Стилі для заголовків і параграфів */
+    h1 {
+        color: #333;
+        font-family: Arial, sans-serif;
+    }
+
+    p {
+        color: #555;
+        font-family: Arial, sans-serif;
+    }
+
+    /* Стилі для кнопок і форм */
+    .btn {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 5px;
+        font-family: Arial, sans-serif;
+    }
+
+    /* Стилі для списків */
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    li {
+        margin-bottom: 5px;
+    }
+
+    /* Стилі для таблиць */
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    th, td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+
+    th {
+        background-color: #f2f2f2;
+    }
+
+    /* Стилі для зображень і відео */
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+</style>
+</head>
+<body>
+    <h1>Онлайн тайм трекер</h1>
+    <img src="datetime.png" alt="Демонстрація функціоналу" width="5%">
+    <p>Вітаємо на нашому веб-сайті для відстеження часу. Тут ви зможете зберігати свої завдання, керувати часом та багато іншого.</p>
+
+    <!-- Форма для відстеження часу -->
+    <form>
+        <label for="task">Завдання:</label>
+        <input type="text" id="task" name="task" placeholder="Введіть назву завдання" required>
+        <label for="time">Час:</label>
+        <input type="number" id="time" name="time" placeholder="Введіть час у хвилинах" required>
+        <button type="submit" class="btn">Додати</button>
+    </form>
+
+    <!-- Кнопки для управління часом -->
+    <button class="btn">Почати відлік</button>
+    <button class="btn">Зупинити відлік</button>
+    <button class="btn">Скинути час</button>
+
+    <!-- Список завдань -->
+    <h2>Список завдань</h2>
+    <ul>
+        <li>Завдання 1</li>
+        <li>Завдання 2</li>
+        <li>Завдання 3</li>
+    </ul>
+
+    <!-- Таблиця з відстеженням часу -->
+    <h2>Таблиця відстеження часу</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Завдання</th>
+                <th>Час (хвилини)</th>
+                <th>Статус</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Завдання 1</td>
+                <td>30</td>
+                <td>Виконано</td>
+            </tr>
+            <tr>
+                <td>Завдання 2</td>
+                <td>45</td>
+                <td>В процесі</td>
+            </tr>
+            <tr>
+                <td>Завдання 3</td>
+                <td>60</td>
+                <td>Не розпочато</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Зображення та відео -->
+    <h2>Філософія управління часом</h2>
+    
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/WXBA4eWskrc?si=teNkI7wseIZtqYnu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>
